@@ -47,18 +47,53 @@
 
 .empresa-ano {
   position: absolute;
-  top: 20px;
+  top: 22px;
   left: -100px;
+  text-align: right;
+  width: 80px;
   color: #525252;
   font-size: 0.875rem;
 }
 
 .empresa-habilidade {
-  list-style: none; /* remove bolinhas */
-  padding: 0; /* remove padding padrão */
-  margin: 0;
   display: flex; /* coloca lado a lado */
   flex-wrap: wrap; /* quebra linha se passar da largura */
   gap: 10px; /* espaço entre itens */
-  justify-content: flex-end; /* alinhamento à direita dentro da box */
+  align-content: start;
+}
+
+.empresa-habilidade li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
