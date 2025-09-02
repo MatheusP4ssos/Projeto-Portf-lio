@@ -11,6 +11,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   position: relative;
+  z-index: 2;
 }
 
 .formacao-container::after {
@@ -22,6 +23,7 @@
   position: absolute;
   left: -20px;
   bottom: -50px;
+  z-index: 3;
 }
 
 .formacao .subtitulo {
