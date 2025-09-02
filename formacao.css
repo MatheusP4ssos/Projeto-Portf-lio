@@ -153,7 +153,7 @@
   .formacao-texto {
     font-size: 1.25rem;
     text-align: center;
-    margin: 0 auto 60px auto; /* mantém o espaçamento inferior */
+    margin: 0 auto 60px auto;
   }
   .formacao-extra h3::before {
     position: initial;
