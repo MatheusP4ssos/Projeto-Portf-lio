@@ -1,6 +1,6 @@
 # Projeto Portfólio Pessoal
 
-Página de portfólio pessoal desenvolvida com foco em HTML, CSS e layout responsivo. Ideal para demonstrar suas habilidades front-end com um design simples e funcional.
+Página de portfólio pessoal desenvolvida com foco em HTML, CSS e layout responsivo. Ideal para demonstrar suas habilidades front-end com um design simples e funcional, desenvolvido com base no curso de HTML e CSS para iniciantes da Origamid.
 
 ---
 
